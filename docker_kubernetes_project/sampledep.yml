@@ -10,4 +10,4 @@ spec:
     image: myanees/testla
     ports:
     - name: nodejs-port
-      containerPort: 8123
+      containerPort: 2123
