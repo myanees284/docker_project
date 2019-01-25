@@ -9,5 +9,5 @@ spec:
     app: hellosample1
   type: NodePort
   ports:
-   - port: 8123
+   - port: 2123
      nodePort: 31036
