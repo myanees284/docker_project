@@ -11,6 +11,6 @@ public class Status {
   @GET
   @Produces(MediaType.APPLICATION_JSON)
   public String statusInformation() {
-    return "{\"status-NEW2\": \"idle\"}\n";
+    return "{\"status-NEW4\": \"idle\"}\n";
   }
 }
