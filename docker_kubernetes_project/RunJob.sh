@@ -15,7 +15,7 @@ export DEPNAME=$(kubectl get deployment -o json | jq '.items[0].metadata.name')
 echo $DEPNAME
 if [[ $DEPNAME == "\"hellosample1"\" ]]
 then
-  echo "Updating container IMAGE"
+  echo "Updating container IM66AGE"
   kubectl set image deployments/hellosample1 testla=$imagever
 else
   echo "Creating DEPLOYMENdT"
