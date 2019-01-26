@@ -18,7 +18,7 @@ then
   echo "Updating container IMAGE"
   kubectl set image deployments/hellosample1 testla=$imagever
 else
-  echo "Creating DEPLOYMENfT"
+  echo "Creating DEPLOYMENdT"
   kubectl create -f Sample_Deployment.yml
   kubectl create -f exposeservice.yml
 fi
