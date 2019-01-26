@@ -1,6 +1,6 @@
 #!/bin/bash
 timestamp=$(date +%s)
-imagever=myanees/testla:v$timestamp
+imagever=myanees/aneesm:v$timestamp
 APIKEY=${clogin}
 KUBECONFIG=${kubeconfig}
 DLOGIN=${dlogin}
