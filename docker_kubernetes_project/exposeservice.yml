@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: hellosvc
   labels:
-    app: hellosample1
+    app: hellosample2
 spec:
   selector:
-    app: hellosample1
+    app: hellosample2
   type: NodePort
   ports:
    - port: 2123
