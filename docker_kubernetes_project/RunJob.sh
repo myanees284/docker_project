@@ -17,7 +17,7 @@ echo $DEPNAME
 if [[ $DEPNAME == *"hellosample"* ]]
 then
   echo "Updating container IMAGE"
-  kubectl set image deployments/hellosample1 testla=$imagever
+  kubectl set image deployments/hellosample2 testla=$imagever
 else
   echo "Creating DEPLOYMENdT"
   kubectl create -f Sample_Deployment.yml
