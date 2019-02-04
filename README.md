@@ -9,4 +9,4 @@
   3.3) Checks if the deployment with name hellosample already exist.If its available, deployement simply updates the container with new changes. If the deployemnt is not there, a new deployment with name hellosample is created
 3) Sample_Deployment.yml - deployment file
 4) exposeservice.yml - exposising the application using nodeport on 31036 port.
-5) On successful deployment, application will be accesible on http://<hostname>:31036/status
+5) On successful deployment, application will be accesible on http://hostname:31036/status
